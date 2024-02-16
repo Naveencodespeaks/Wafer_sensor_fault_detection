@@ -60,6 +60,7 @@ def predictRouteClient():
     except Exception as e:
         return Response("Error Occurred! %s" %e)
 
+# here we are traning the data
 
 
 @app.route("/train", methods=['POST'])
