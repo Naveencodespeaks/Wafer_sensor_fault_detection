@@ -1,0 +1,42 @@
+2024-02-16/17:30:23		Start of Validation on files!!
+2024-02-16/17:30:29		Raw Data Validation Complete!!
+2024-02-16/17:30:29		Starting Data Transforamtion!!
+2024-02-16/17:30:35		DataTransformation Completed!!!
+2024-02-16/17:30:35		Creating Training_Database and tables on the basis of given schema!!!
+2024-02-16/17:30:39		Table creation Completed!!
+2024-02-16/17:30:39		Insertion of Data into Table started!!!!
+2024-02-16/17:30:45		Insertion in Table completed!!!
+2024-02-16/17:30:45		Deleting Good Data Folder!!!
+2024-02-16/17:30:45		Good_Data folder deleted!!!
+2024-02-16/17:30:45		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-02-16/17:30:45		Bad files moved to archive!! Bad folder Deleted!!
+2024-02-16/17:30:45		Validation Operation completed!!
+2024-02-16/17:30:45		Extracting csv file from table
+2024-02-16/19:48:11		Start of Validation on files!!
+2024-02-16/19:48:29		Raw Data Validation Complete!!
+2024-02-16/19:48:29		Starting Data Transforamtion!!
+2024-02-16/19:48:40		DataTransformation Completed!!!
+2024-02-16/19:48:40		Creating Training_Database and tables on the basis of given schema!!!
+2024-02-16/19:48:40		Table creation Completed!!
+2024-02-16/19:48:40		Insertion of Data into Table started!!!!
+2024-02-16/19:48:45		Insertion in Table completed!!!
+2024-02-16/19:48:45		Deleting Good Data Folder!!!
+2024-02-16/19:48:45		Good_Data folder deleted!!!
+2024-02-16/19:48:45		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-02-16/19:48:46		Bad files moved to archive!! Bad folder Deleted!!
+2024-02-16/19:48:46		Validation Operation completed!!
+2024-02-16/19:48:46		Extracting csv file from table
+2024-02-16/19:52:09		Start of Validation on files!!
+2024-02-16/19:52:13		Raw Data Validation Complete!!
+2024-02-16/19:52:13		Starting Data Transforamtion!!
+2024-02-16/19:52:19		DataTransformation Completed!!!
+2024-02-16/19:52:19		Creating Training_Database and tables on the basis of given schema!!!
+2024-02-16/19:52:19		Table creation Completed!!
+2024-02-16/19:52:19		Insertion of Data into Table started!!!!
+2024-02-16/19:52:24		Insertion in Table completed!!!
+2024-02-16/19:52:24		Deleting Good Data Folder!!!
+2024-02-16/19:52:24		Good_Data folder deleted!!!
+2024-02-16/19:52:24		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-02-16/19:52:24		Bad files moved to archive!! Bad folder Deleted!!
+2024-02-16/19:52:24		Validation Operation completed!!
+2024-02-16/19:52:24		Extracting csv file from table

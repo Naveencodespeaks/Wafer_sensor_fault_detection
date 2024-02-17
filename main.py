@@ -62,20 +62,20 @@ def predictRouteClient():
 
 # here we are traning the data
 
-
-@app.route("/train", methods=['POST'])
+@app.route("/train", methods=['GET','POST'])
 @cross_origin()
 def trainRouteClient():
-
     try:
-        if request.json['folderPath'] is not None:
-            path = request.json['folderPath']
+# here we are commented this line of code because for that the postman we have used this request.json
+# for testing perpose we have to use this "Traning_Batch_File"
+        # if request.json['folderPath'] is not None:
+        folder_path = "Training_Batch_Files"
+            #path = request.json['folderPath']
 
+        if folder_path is not None:
+            path = folder_path
             train_valObj = train_validation(path) #object initialization
-
             train_valObj.train_validation()#calling the training_validation function
-
-
             trainModelObj = trainModel() #object initialization
             trainModelObj.trainingModel() #training the model for the files in the table
 
