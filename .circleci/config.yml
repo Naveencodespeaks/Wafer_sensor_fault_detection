@@ -1,19 +1,22 @@
 version: 2.1
-orbs:
-  heroku: circleci/heroku@1.0.1
+
 jobs:
-  build-and-test:
-    executor: heroku/default
+  build:
     docker:
       - image: circleci/python:3.6.2-stretch-browsers
-        auth:
-          username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - restore_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
-          name: Install Python deps in a venv
+          name: Install dependencies
           command: |
-            echo 'export TAG=0.1.$
+            pip install -r requirements.txt
+      - run:
+          name: Run tests
+          command: |
+            python test.py
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
