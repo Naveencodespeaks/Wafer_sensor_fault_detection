@@ -28,4 +28,4 @@ data_preprocessing/clustering.py
 data_preprocessing/preprocessing.py
 file_operations/__init__.py
 file_operations/file_methods.py
-tests/test.py
+tests/test._script.py
