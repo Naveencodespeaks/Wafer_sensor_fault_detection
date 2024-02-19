@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: Upgrade pip
-          command: pip install --upgrade pip
+          command: sudo pip install --upgrade pip
       - run:
           name: Install dependencies
           command: |
