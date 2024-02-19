@@ -14,14 +14,12 @@ jobs:
           command: |
             pip install -r requirements.txt
       - run:
-          name: Run tests
-          command: |
-            python C:\Users\DELL\Downloads\waferFaultDetection (2)\waferFaultDetection\code\WaferFaultDetection_new\tests\test.py  # Adjust the path to your test.py file
-            
+      name: Copy waferFaultDetection directory into container
+      command: cp -r C:\\Users\\DELL\\Downloads\\waferFaultDetection\ \(2\) /tmp/waferFaultDetection
+
 
 workflows:
   version: 2
   build_and_test:
     jobs:
       - build
-
